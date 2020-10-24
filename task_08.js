@@ -2,7 +2,7 @@ import users from './users.js';
 
 const getUsersWithFriend = (users, friend) => {
   // твой код
-return users.filter(user => user.friend === friend);
+return users.filter(user => user.friends === friend);
 
 };
 

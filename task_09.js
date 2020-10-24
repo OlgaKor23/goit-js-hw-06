@@ -4,7 +4,7 @@ const getNamesSortedByFriendsCount = users => {
   // твой код
   return users
   .map(user => user.name)
-  .sort((prev, next) => (next.friend - prev.friend));
+  .sort((prev, next) => prev.friends.length - next.friends.length);
 };
 
 console.table(getNamesSortedByFriendsCount(users));
