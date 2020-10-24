@@ -1,8 +1,4 @@
-const users = [
-	{ name: 'Moore Hensley', eyeColor: 'blue', email:'shereeanthony@kog.com' },
-	{ name: 'Sharlene Bush', eyeColor: 'black', email:'elmahead@omatom.com'},
-	{ name: 'Carey Barr', eyeColor: 'green', email: 'bla-bla@gmail.com'},
-];
+import users from './users.js';
 
 const getUserWithEmail = (users, email) => users.find(x => x.email === email);
 

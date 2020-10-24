@@ -1,8 +1,4 @@
-const users = [
-	{ name: 'Moore Hensley', eyeColor: 'blue'},
-	{ name: 'Sharlene Bush', eyeColor: 'black'},
-	{ name: 'Carey Barr', eyeColor: 'green'},
-];
+import users from './users.js';
 
 const getUsersWithEyeColor = (users, color) => {
   return users.find(user => user.eyeColor);

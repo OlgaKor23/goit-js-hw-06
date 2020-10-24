@@ -1,11 +1,4 @@
-const users = [
-	{ name: 'Ross Vazquez', age: 20 },
-	{ name: 'Elma Head', age: 30},
-	{ name: 'Carey Barr', age: 20},
-	{ name: 'Sharlene Bush', age: 40 },
-	{ name: 'Blackburn Dotson', age: 30},
-	{ name: 'Sheree Anthony', age: 40},
-];
+import users from './users.js';
 
 const getUsersWithAge = (users, min, max) => {
   // твой код

@@ -1,10 +1,4 @@
-const users =  [
-  { id: '000', balance: 5},
-  { id: '001', balance: 2 },
-  { id: '002', balance: 17},
-  { id: '003', balance: 8 },
-  { id: '004', balance: 0 },
-];
+import users from './users.js';
 
 const calculateTotalBalance = users => {
   // твой код

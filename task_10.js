@@ -1,13 +1,4 @@
-const users = [
-	{ name: 'Ross Vazquez', skills:  ['js', 'nodejs']},
-	{ name: 'Sharlene Bush', skills: ['html', 'js', 'nodejs']},
-	{ name: 'Elma Head', skills: ['html', 'js', 'nodejs', 'css', 'react']},
-	{ name: 'Carey Barr',  skills: ['html', 'js', 'nodejs', 'css', 'react']},
-	{ name: 'Sharlene Bush', skills: ['html', 'js', 'nodejs', 'scss', 'react']},
-	{ name: 'Blackburn Dotson',  skills: ['html', 'js', 'nodejs']},
-	{ name: 'Sheree Anthony', skills: ['html', 'js', 'nodejs', 'css', 'react']},
-	{ name: 'Sharlene Bush', skills: ['html', 'js', 'nodejs', 'scss']},
-];
+import users from './users.js';
 
 const getSortedUniqueSkills = users => 
 	users.reduce((acc, value) => {

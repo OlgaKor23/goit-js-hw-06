@@ -1,11 +1,4 @@
-const users = [
-	{ name: 'Ross Vazquez', age: 20, friend: 'Briana Decker' },
-	{ name: 'Elma Head', age: 30, friend: 'Goldie Gentry'},
-	{ name: 'Carey Barr', age: 21,  friend: 'Briana Decker'},
-	{ name: 'Sharlene Bush', age: 40, friend: 'Goldie Gentry' },
-	{ name: 'Blackburn Dotson', age: 30, friend: 'Briana Decker'},
-	{ name: 'Sheree Anthony', age: 41,  friend: 'Briana Decker'},
-];
+import users from './users.js';
 
 const getUsersWithFriend = (users, friend) => {
   // твой код
